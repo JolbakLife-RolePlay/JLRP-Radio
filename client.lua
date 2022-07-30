@@ -140,9 +140,8 @@ function OnPlayerData(key, val, last)
 				leaveradio()
 			end
 		end
-	end
-	Wait(1000)
-	if key == 'weight' then
+	elseif key == 'weight' then
+		Wait(1000)
 		DoRadioCheck()
 	end
 end
